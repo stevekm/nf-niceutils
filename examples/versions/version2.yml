@@ -1,0 +1,3 @@
+"WORKFLOW1:DO_BAR":
+    bar_program: v2.3.4
+    container: "bar_program:2.3.4"

@@ -1,0 +1,69 @@
+
+id: 'workflow-summary'
+description: " - this information is collected when the pipeline is started."
+section_name: 'Workflow Summary'
+section_href: 'https://github.com/stevekm/nf-niceutils'
+plot_type: 'html'
+data: |
+    <b>Pipeline Parameters</b><br>
+    <dl class="dl-horizontal">
+        <dt>outdir</dt><dd><samp>output</samp></dd>
+        <dt>param1</dt><dd><samp>1</samp></dd>
+        <dt>param2</dt><dd><samp>2</samp></dd>
+        <dt>param3</dt><dd><samp>some value goes here</samp></dd>
+        <dt>useMultiQC</dt><dd><samp>true</samp></dd>
+        <dt>use-multi-QC</dt><dd><samp>true</samp></dd>
+    </dl>
+    <br>
+    <b>Workflow Parameters</b><br>
+    <dl class="dl-horizontal">
+        <dt>start</dt><dd><samp>2024-04-18T23:43:20.788919-04:00</samp></dd>
+        <dt>projectDir</dt><dd><samp>/Users/steve/projects/nf-niceutils/examples</samp></dd>
+        <dt>manifest</dt><dd><samp>nextflow.config.Manifest@16b64a03</samp></dd>
+        <dt>complete</dt><dd><samp><span style="color:#999999;">N/A</a></samp></dd>
+        <dt>profile</dt><dd><samp>multiqc</samp></dd>
+        <dt>homeDir</dt><dd><samp>/Users/steve</samp></dd>
+        <dt>workDir</dt><dd><samp>/Users/steve/projects/nf-niceutils/work</samp></dd>
+        <dt>container</dt><dd><samp><span style="color:#999999;">N/A</a></samp></dd>
+        <dt>commitId</dt><dd><samp><span style="color:#999999;">N/A</a></samp></dd>
+        <dt>errorMessage</dt><dd><samp><span style="color:#999999;">N/A</a></samp></dd>
+        <dt>repository</dt><dd><samp><span style="color:#999999;">N/A</a></samp></dd>
+        <dt>containerEngine</dt><dd><samp>docker</samp></dd>
+        <dt>scriptFile</dt><dd><samp>/Users/steve/projects/nf-niceutils/examples/test.nf</samp></dd>
+        <dt>userName</dt><dd><samp>steve</samp></dd>
+        <dt>launchDir</dt><dd><samp>/Users/steve/projects/nf-niceutils</samp></dd>
+        <dt>runName</dt><dd><samp>deadly_heisenberg</samp></dd>
+        <dt>class</dt><dd><samp>class nextflow.script.WorkflowMetadata</samp></dd>
+        <dt>configFiles</dt><dd><samp>[/Users/steve/projects/nf-niceutils/examples/nextflow.config]</samp></dd>
+        <dt>sessionId</dt><dd><samp>5a2ecd01-b2d9-4baa-9116-edf152590be8</samp></dd>
+        <dt>errorReport</dt><dd><samp><span style="color:#999999;">N/A</a></samp></dd>
+        <dt>workflowStats</dt><dd><samp>WorkflowStats[succeededCount=0; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=0ms; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=0; peakCpus=0; peakMemory=0; ]</samp></dd>
+        <dt>scriptId</dt><dd><samp>11a79f48e94f14bb0697347c32799db5</samp></dd>
+        <dt>revision</dt><dd><samp><span style="color:#999999;">N/A</a></samp></dd>
+        <dt>exitStatus</dt><dd><samp><span style="color:#999999;">N/A</a></samp></dd>
+        <dt>commandLine</dt><dd><samp>nextflow run examples/test.nf -profile multiqc</samp></dd>
+        <dt>stubRun</dt><dd><samp><span style="color:#999999;">N/A</a></samp></dd>
+        <dt>nextflow</dt><dd><samp>nextflow.NextflowMeta(version:23.10.1, build:5891, timestamp:12-01-2024 22:01 UTC, preview:nextflow.NextflowMeta$Preview@760f1081, enable:nextflow.NextflowMeta$Features@52621501, dsl2:true, dsl2Final:true, strictModeEnabled:false)</samp></dd>
+        <dt>stats</dt><dd><samp>WorkflowStats[succeededCount=0; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=0ms; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=0; peakCpus=0; peakMemory=0; ]</samp></dd>
+        <dt>resume</dt><dd><samp><span style="color:#999999;">N/A</a></samp></dd>
+        <dt>success</dt><dd><samp><span style="color:#999999;">N/A</a></samp></dd>
+        <dt>projectName</dt><dd><samp>test.nf</samp></dd>
+        <dt>scriptName</dt><dd><samp>test.nf</samp></dd>
+        <dt>duration</dt><dd><samp><span style="color:#999999;">N/A</a></samp></dd>
+    </dl>
+    <br>
+    <b>Workflow Manifest</b><br>
+    <dl class="dl-horizontal">
+        <dt>doi</dt><dd><samp><span style="color:#999999;">N/A</a></samp></dd>
+        <dt>nextflowVersion</dt><dd><samp><span style="color:#999999;">N/A</a></samp></dd>
+        <dt>class</dt><dd><samp>class nextflow.config.Manifest</samp></dd>
+        <dt>defaultBranch</dt><dd><samp>master</samp></dd>
+        <dt>version</dt><dd><samp>4.2</samp></dd>
+        <dt>homePage</dt><dd><samp>https://github.com/stevekm/nf-niceutils</samp></dd>
+        <dt>gitmodules</dt><dd><samp><span style="color:#999999;">N/A</a></samp></dd>
+        <dt>description</dt><dd><samp>Test Pipeline for nf-niceutils</samp></dd>
+        <dt>recurseSubmodules</dt><dd><samp><span style="color:#999999;">N/A</a></samp></dd>
+        <dt>name</dt><dd><samp>test-pipeline</samp></dd>
+        <dt>mainScript</dt><dd><samp>test.nf</samp></dd>
+        <dt>author</dt><dd><samp>Stephen Kelly</samp></dd>
+    </dl>

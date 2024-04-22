@@ -1,0 +1,94 @@
+section_name: test-pipeline Software Versions
+section_href: https://github.com/stevekm/nf-niceutils
+plot_type: html
+description: Versions collected at run time from the software output.
+data: |2-
+
+  <style>
+  #nf-core-versions tbody:nth-child(even) {
+  background-color: #f2f2f2;
+  }
+  </style>
+  <table class="table" style="width:100%" id="nf-core-versions">
+  <thead>
+  <tr>
+  <th> Process  </th>
+  <th> Software </th>
+  <th> Version  </th>
+  <th> Container </th>
+  <th> ID </th>
+  </tr>
+  </thead>
+
+  <tbody>
+
+  <tr>
+  <td><samp>DO_BUZZ</samp></td>
+  <td><samp>buzz1_program</samp></td>
+  <td><samp>5.6.7</samp></td>
+  <td><samp></samp></td>
+  <td><samp>DO_BUZZ</samp></td>
+  </tr>
+
+
+  <tr>
+  <td><samp></samp></td>
+  <td><samp>buzz2_program</samp></td>
+  <td><samp>v6.8</samp></td>
+  <td><samp></samp></td>
+  <td><samp></samp></td>
+  </tr>
+
+  </tbody>
+  <tbody>
+
+  <tr>
+  <td><samp>DO_BAZ</samp></td>
+  <td><samp>baz1_program</samp></td>
+  <td><samp>2.4</samp></td>
+  <td><samp></samp></td>
+  <td><samp>DO_BAZ</samp></td>
+  </tr>
+
+
+  <tr>
+  <td><samp></samp></td>
+  <td><samp>baz2_program</samp></td>
+  <td><samp>3.5</samp></td>
+  <td><samp></samp></td>
+  <td><samp></samp></td>
+  </tr>
+
+  </tbody>
+  <tbody>
+
+  <tr>
+  <td><samp>DO_FOO</samp></td>
+  <td><samp>foo_program</samp></td>
+  <td><samp>v1.2.3</samp></td>
+  <td><samp></samp></td>
+  <td><samp>WORKFLOW1:DO_FOO</samp></td>
+  </tr>
+
+  </tbody>
+  <tbody>
+
+  <tr>
+  <td><samp>Workflow</samp></td>
+  <td><samp>Nextflow</samp></td>
+  <td><samp>23.10.1</samp></td>
+  <td><samp></samp></td>
+  <td><samp>Workflow</samp></td>
+  </tr>
+
+
+  <tr>
+  <td><samp></samp></td>
+  <td><samp>test-pipeline</samp></td>
+  <td><samp>4.2</samp></td>
+  <td><samp></samp></td>
+  <td><samp></samp></td>
+  </tr>
+
+  </tbody>
+  </table>

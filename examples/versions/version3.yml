@@ -1,0 +1,3 @@
+"WORKFLOW1:DO_BAZ":
+    baz_program: v3.4.5
+    container: "baz_program:3.4.5"

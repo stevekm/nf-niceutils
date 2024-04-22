@@ -1,0 +1,13 @@
+{
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/.nextflow/**": true,
+        "**/output*/**": true,
+        "**/work/**": true
+    },
+    "files.associations": {
+        "*.nf": "groovy",
+        "*.config": "groovy"
+      }
+}

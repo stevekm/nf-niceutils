@@ -1,0 +1,3 @@
+"WORKFLOW1:DO_FOO":
+    foo_program: v1.2.3
+    container: "foo_program:1.2.3"
